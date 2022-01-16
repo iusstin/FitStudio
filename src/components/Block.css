@@ -1,0 +1,41 @@
+.image-block-img {
+    display: inline-block;
+    position: center;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.6s;
+    height: 400px;
+}
+.image-block-img:hover {
+    transform: scale(1.15);
+}
+.image-block-wrapper {
+    position: center;
+    margin: 10px 20px;
+}
+
+.col33 {
+    display: inline-block;
+    padding: 30px 0px;
+    width: 33%;
+}
+
+.image-block-link {
+    position: center;
+    margin: 20px 100px;
+    padding: 30px 0px;
+    color: black;
+}
+/*.image-block-title {
+    margin: 10px 100px;
+    position: center;
+    color: black;
+}*/
+
+@media screen and (max-width: 600px) {
+    .col33 {
+        width: 80%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}

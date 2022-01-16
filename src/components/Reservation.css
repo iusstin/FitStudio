@@ -1,0 +1,45 @@
+.contact-form {
+    background-image: url("D:\Te Fac Programator\FitStudio\public\images\background.jpg");
+    background-size:100%;
+    opacity: 1;
+    background-blend-mode: darken;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 98%;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+.form-button {
+    background-color: #232121;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 45%;
+    margin-top: 5px;
+    block-size: 50px;
+}
+form {
+    position: center;
+}
+.form-label {
+    display: block;
+    margin-left: 30%;
+    padding: 5px 10px;
+    font-weight: 100;
+    color: lightcyan;
+}
+.form-element {
+    display: block;
+    padding: 5px 10px;
+    width: 40%;
+    margin-left: 30%;
+    max-width: inherit;
+    border-radius: 4px;
+}
+.formtitle {
+    color: black;
+    margin: auto;
+    position:center;
+    margin-left: 45%;
+}

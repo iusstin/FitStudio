@@ -1,0 +1,48 @@
+.logo {
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    color: #222
+}
+.header {
+    overflow: hidden;
+    min-width: 600px;
+    background-color: #808080;
+}
+
+.header-nav {
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+.header-nav-link {
+    text-align: center;
+    text-decoration: none;
+    background-color: #808080;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0px 5px;
+    display: inline-block;
+    border-radius: 6px;
+}
+.header-nav-link:hover {
+    background-color: white;
+    color: black;
+}
+.header .home {
+    background-color: black;
+    color: white;
+}
+
+@media screen {
+    .header p{
+        display: inline-block;
+        float: none;
+    }
+    .header-nav {
+        float: right;
+    }
+}

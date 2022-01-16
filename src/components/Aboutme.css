@@ -1,0 +1,25 @@
+.img {
+    background-image: url('/public/images/univers.jpg');
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+}
+.text {
+    margin-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 25px;
+    font-family: "Courier New", Courier, monospace;
+}
+.icons {
+    display: flex;
+    grid-gap: 40px;
+}
+.logo {
+    background-position:bottom;
+    position:static;
+}

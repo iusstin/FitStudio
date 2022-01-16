@@ -1,0 +1,29 @@
+#root{
+    background-color: white;
+}
+.tableTitle {
+    margin-left: 45%;
+    padding: 10px 0px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: extra-expanded;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    position: center !important;
+    border-spacing: 20px;
+    width: 70%;
+    text-align: left;
+    border: 1px double;
+}
+
+tr td {
+    padding: 1px;
+}
+tr:hover {
+    background-color: #97d3f6;
+}
